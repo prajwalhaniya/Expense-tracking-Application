@@ -25,7 +25,7 @@ const submitHandler = (event) => {
 
     const expenseData = {
         title:enteredTitle,
-        amount:enteredAmount,
+        amount:+enteredAmount,
         date:new Date(enteredDate)
     };
 
@@ -39,6 +39,7 @@ const submitHandler = (event) => {
 
     return(
         <form onSubmit={submitHandler}>
+             <div className="heading">Expense Tracking Application</div>
             <div className="new-expense__controls">
                 <div className="new-expense__control">
                     <label>Title</label>
