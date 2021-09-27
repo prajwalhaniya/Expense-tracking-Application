@@ -1,11 +1,12 @@
 import './Expenses.css';
 import ExpenseItem from './ExpenseItem';
 
+
 function Expenses(props){
   
       return(
           <div className="expenses">
-               <h2> Expense tracking application</h2>
+              <div className="heading">Expense Tracking Application</div>
       <ExpenseItem
         title={props.items[0].title}
         amount={props.items[0].amount}
