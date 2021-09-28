@@ -2,7 +2,7 @@
   "name": "expense-tracking-application",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/Prajwalhn18/Expense-tracking-Application",
+  "homepage": "https://github.com/Prajwalhn18/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
